@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	//var card string = "Ace of Spades"
 
@@ -24,6 +26,8 @@ func main() {
 
 	hand.print()
 	remainingCards.print()
+
+	fmt.Println(hand.toString())
 
 	//fmt.Println(hand)
 	//fmt.Println(remainingCards)
