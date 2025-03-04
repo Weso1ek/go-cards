@@ -27,6 +27,10 @@ func main() {
 
 	//fmt.Println(hand)
 	//fmt.Println(remainingCards)
+
+	// BYTE SLICE
+	//test := "hello there"
+	//fmt.Println([]byte(test))
 }
 
 //func newCard() string {
