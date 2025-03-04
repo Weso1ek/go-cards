@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	//var card string = "Ace of Spades"
 
@@ -19,17 +17,20 @@ func main() {
 	//	fmt.Println(i, card)
 	//}
 
-	cards := newDeck()
+	//cards := newDeck()
 	//cards.print()
 
-	hand, remainingCards := deal(cards, 5)
+	//hand, remainingCards := deal(cards, 5)
 
-	hand.print()
-	remainingCards.print()
+	//hand.print()
+	//remainingCards.print()
 
-	fmt.Println(hand.toString())
+	// SAVE DECK FROM FILE
+	//cards.saveToFile("cosik.txt")
 
-	cards.saveToFile("cosik.txt")
+	// READ DECK FROM FILE
+	newCards := newDeckFromFile("cosik2.txt")
+	newCards.print()
 
 	//fmt.Println(hand)
 	//fmt.Println(remainingCards)
