@@ -29,6 +29,8 @@ func main() {
 
 	fmt.Println(hand.toString())
 
+	cards.saveToFile("cosik.txt")
+
 	//fmt.Println(hand)
 	//fmt.Println(remainingCards)
 
