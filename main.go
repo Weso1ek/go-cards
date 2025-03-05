@@ -29,8 +29,13 @@ func main() {
 	//cards.saveToFile("cosik.txt")
 
 	// READ DECK FROM FILE
-	newCards := newDeckFromFile("cosik2.txt")
-	newCards.print()
+	//newCards := newDeckFromFile("cosik.txt")
+	//newCards.print()
+
+	// SHUFFLE
+	cards := newDeck()
+	cards.shuffle()
+	cards.print()
 
 	//fmt.Println(hand)
 	//fmt.Println(remainingCards)
